@@ -12,5 +12,8 @@
 * Evaluation metic for object detection/instance segmentation
   * Precision: tp/(tp + fp); tp / predicted positive
   * Recall: tp/(tp+fn); tp / all positive
-  * AP: average precision; Area under the precision-recall cruve(PR curve)
+  * AP: average precision; Area under the precision-recall cruve (PR curve) with different threshold.
     ![PRcurve](https://miro.medium.com/max/600/0*IIP5_lTXigXMViiu.png)
+    
+  * IoU: area of overlap / area of union -> Both for bounding boxes and segmentation masks.
+  * AP@ RANEGE \[0.5: 0.95] 
